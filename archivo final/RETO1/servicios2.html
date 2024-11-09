@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="icon" type="image/x-icon" href="favicon2.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Esthetic Dental Clinic</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black; /* Gris en lugar de azul */
+            font-weight: bold;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav ul li a:hover {
+            color: #007aff; 
+        }
+
+        /* Sección de servicios */
+        .services {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+
+        .services h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+
+        .service-item {
+            display: inline-block;
+            margin: 30px;
+            width: 30%;
+            vertical-align: top;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .service-item h3 {
+            font-size: 24px;
+            margin: 20px;
+            font-weight: 600;
+        }
+
+        .service-item p {
+            padding: 0 20px;
+            font-size: 16px;
+            color: #555;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+
+        /* Enlaces dentro de los servicios */
+        .service-item a {
+            text-decoration: none; /* Sin subrayado */
+            color: #888; /* Gris */
+            display: block; /* Hacer que el enlace ocupe todo el área de la tarjeta */
+            padding: 20px; /* Para separar el contenido del borde */
+        }
+
+        .service-item a:hover {
+            color: #666; /* Gris más oscuro al pasar el ratón */
+        }
+
+        footer {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #888;
+        }
+		button {
+    
+  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	color: #007aff
+	}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Inicio3.html">Home</a></li>
+                <li><a href="servicios2.html">Services</a></li>
+                <li><a href="nosotros2.html">About Us</a></li>
+                <li><a href="contacto2.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="services">
+        <h2>Services that we offer:</h2>
+        <div class="service-item">
+            <a href="diseno-web.html">
+                <img src="web.jpg" alt="Diseño Web">
+                <h3>WEB DESIGN</h3>
+                <p>Recover your website's own style.</p>
+            </a>
+        </div>
+        <div class="service-item">
+            <a href="paginas-web.html">
+                <img src="pagina.jpeg" alt="Páginas Web">
+                <h3>WEB PAGES</h3>
+                <p>Make your idea become a reality.</p>
+            </a>
+        </div>
+        <div class="service-item">
+            <a href="publicidad.html">
+                <img src="publicidad-digital.jpg" alt="Publicidad Digital">
+                <h3>ADVERTISING</h3>
+                <p>Correct your customer service, increase your chances of reaching a new audience.</p>
+            </a>
+        </div>
+    </section>
+<button onclick="window.location.href='Final.html'">Volver atrás</button>
+    <footer>
+        <p>&copy; 2024 Esthetic Dental Clinic. All rights reserved.</p>
+    </footer>
+</body>
+</html>

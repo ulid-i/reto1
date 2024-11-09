@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estiloInscripción.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción a Conferencias</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Odontología SL</h1>
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="quienes-somos.html">¿Quiénes somos?</a>
+            <a href="que-hacemos.html">¿Qué hacemos?</a>
+            <a href="a-que-nos-dedicamos.html">¿A qué nos dedicamos?</a>
+            <a href="informacion.html">Información</a>
+            <a href="donde-estamos.html">¿Dónde estamos?</a>
+            <a href="inscripcion.html">Inscripción</a>
+			<a href="Inicio2.html">Sobre nosotros</a>
+			<a href="Inicio3.html">About us</a>
+        </nav>
+    </header>
+    <h1>Inscripción a Conferencias</h1>
+    <form action="inscripcion.php" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="eventos">Seleccione los eventos a los que asistirá:</label>
+        <select id="eventos" name="eventos[]" multiple>
+            <option value="1">LUNES/Charlas educativas 09:30-12:00</option>
+            <option value="2">MARTES/Revisiones dentales 09:30-12:30</option>
+            <option value="3">MIERCOLES/Consejos de higiene 09:30-12:00</option>
+            <option value="4">JUEVES/Asesoria higiene bucodental 09:30-12:30</option>
+        </select>
+
+        <button type="submit">Inscribirse</button>
+    </form>
+    <button onclick="window.location.href='Final.html'">Volver atrás</button>
+	
+	
+	 <footer>
+        <p>&copy; 2024 Clínica Dental Estética. Todos los derechos reservados.</p>
+    </footer>
+	
+</body>
+</html>
